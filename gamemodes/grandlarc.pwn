@@ -106,7 +106,7 @@ public OnPlayerConnect(playerid)
 
  	return 1;
 }
-git checkout testBranch
+
 forward LoadPlayerAccountData(playerid);
 public LoadPlayerAccountData(playerid)
 {
