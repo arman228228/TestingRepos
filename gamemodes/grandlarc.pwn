@@ -107,7 +107,7 @@ public OnPlayerConnect(playerid)
  	return 1;
 }
 
-forward LoadPlayerAccountDataû(playerid);
+forward LoadPlayerAccountData(playerid);
 public LoadPlayerAccountData(playerid)
 {
 	new rows;
