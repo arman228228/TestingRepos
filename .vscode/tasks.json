@@ -1,0 +1,34 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "RDS Project",
+      "type": "shell",
+      "command": "${workspaceRoot}/pawno/pawncc.exe",
+      "args": [
+        "'${fileBasename}'",
+        "'-D${fileDirname}'",
+        "'-;+'",
+        "'-(+'",
+        "'-d3'"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "isBackground": false,
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated"
+      },
+      "problemMatcher": "$pawncc"
+    },
+    {
+      "label": "Run Exec",
+      "type": "shell",
+      "problemMatcher": [],
+      "dependsOn": "RDS Project",
+      "command": "onCommand:exe-runner.run"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+    // Доводка редактора
+    "editor.foldingMaximumRegions": 20000,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.scrollBeyondLastColumn": 0,
+    "editor.suggest.preview": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.fontLigatures": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    // Работа с файлами
+    "files.defaultLanguage": "markdown",
+    "files.autoSave": "onFocusChange",
+    // Доводка терминала
+    //"terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontSize": 14,
+    // Доводка рабочей области
+    "workbench.colorCustomizations": {
+      "tab.activeBackground": "#fff3",
+      "editorBracketPairGuide.background1": "#FFB86C",
+      "editorBracketPairGuide.background2": "#FF75B5",
+      "editorBracketPairGuide.background3": "#45A9F9",
+      "editorBracketPairGuide.background4": "#B084EB",
+      "editorBracketPairGuide.background5": "#E6E6E6",
+      "editorBracketPairGuide.background6": "#19f9d8",
+        
+      "editorBracketPairGuide.activeBackground1": "#FFB86C",
+      "editorBracketPairGuide.activeBackground2": "#FF75B5",
+      "editorBracketPairGuide.activeBackground3": "#45A9F9",
+      "editorBracketPairGuide.activeBackground4": "#B084EB",
+      "editorBracketPairGuide.activeBackground5": "#E6E6E6",
+      "editorBracketPairGuide.activeBackground6": "#19f9d8",
+
+      "minimap.background" : "#262533"
+    },
+    "workbench.editor.limit.value": 5,
+    "editor.glyphMargin": false
+}
