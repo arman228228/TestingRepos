@@ -108,7 +108,7 @@ public OnPlayerConnect(playerid)
 }
 
 forward LoadPlayerAccountDataû(playerid);
-public LoadPlayerAccountDataû(playerid)
+public LoadPlayerAccountData(playerid)
 {
 	new rows;
 	cache_get_row_count(rows);

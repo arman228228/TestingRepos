@@ -44,5 +44,6 @@
       "minimap.background" : "#262533"
     },
     "workbench.editor.limit.value": 5,
-    "editor.glyphMargin": false
+    "editor.glyphMargin": false,
+    "gitdoc.enabled": true
 }
