@@ -107,8 +107,8 @@ public OnPlayerConnect(playerid)
  	return 1;
 }
 
-forward LoadPlayerAccountData(playerid);
-public LoadPlayerAccountData(playerid)
+forward LoadPlayerAccountDataû(playerid);
+public LoadPlayerAccountDataû(playerid)
 {
 	new rows;
 	cache_get_row_count(rows);
@@ -125,6 +125,7 @@ public LoadPlayerAccountData(playerid)
 
 	return printf("[LoadPlayerAccountData debug]: Account %s (%d ID) successfully found.", playerName[playerid], playerUserID[playerid]);
 }
+
 
 //----------------------------------------------------------
 
